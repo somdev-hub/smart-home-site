@@ -476,10 +476,6 @@ header p {
     font-size: 12px;
   }
 
-  body{
-    width: 100vw;
-  }
-
   .social-btns-nav {
     visibility: visible;
     display: flex;
@@ -492,7 +488,7 @@ header p {
   }
 
   #header {
-    height: 50vh;
+    height: 55vh;
   }
 
   #header h1 {
