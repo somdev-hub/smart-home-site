@@ -476,6 +476,10 @@ header p {
     font-size: 12px;
   }
 
+  body{
+    width: 100vw;
+  }
+
   .social-btns-nav {
     visibility: visible;
     display: flex;
@@ -488,7 +492,7 @@ header p {
   }
 
   #header {
-    height: 45vh;
+    height: 50vh;
   }
 
   #header h1 {
@@ -508,8 +512,15 @@ header p {
   }
 
   .download {
-    transform: scale(3);
     margin-top: 15%;
+  }
+
+  .playstore{
+    width: 30%;
+  }
+
+  .appstore{
+    width: 32%;
   }
 
   #about {
@@ -581,6 +592,7 @@ header p {
   }
 
   .circle1 {
+    width: 0%;
     visibility: hidden;
   }
 
@@ -591,10 +603,6 @@ header p {
   .download-col-1 {
     align-items: center;
     text-align: center;
-  }
-
-  .download-btns {
-    transform: scale(1.5);
   }
 
   .download-col-2 {

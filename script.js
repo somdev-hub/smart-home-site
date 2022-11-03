@@ -59,7 +59,7 @@ var head = document.getElementById("header");
 
 nav.onclick = function () {
   if (head.style.height == "100vh") {
-    head.style.height = "45vh";
+    head.style.height = "50vh";
   } else {
     head.style.height = "100vh";
   }
